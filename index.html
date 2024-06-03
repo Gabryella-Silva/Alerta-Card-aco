@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Ataque Cardíaco </title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -48,7 +49,7 @@
                                 <h1 class="titulo"> Tratamento </h1>
                             <p>O tratamento para um ataque cardíaco envolve medicamentos, como aspirina, trombolíticos, betabloqueadores e estatinas, procedimentos médicos como angioplastia e cirurgia de revascularização coronária, e mudanças no estilo de vida, como dieta saudável, exercícios físicos regulares e parar de fumar. A reabilitação cardíaca também é importante para a recuperação e prevenção de futuros problemas cardíacos. Seguir o plano de tratamento e fazer mudanças no estilo de vida são fundamentais para uma recuperação bem-sucedida. </p>
                             </div>        
-            </section>
+         <!--   </section>
 
 
                    <section >
@@ -63,8 +64,53 @@
                                <img  class="grafico-img" src="./img/boxplot idade dos pacientes.png" alt="">
                             </a>
                        </div> 
-                    </section>
+                    </section> -->
           
+                                <section class="formulario">
+                                    <h1 class="titulo"> Verifique se você está suscetível a um ataque cardíaco </h1>
+                                       
+                                        <div>
+                                            <form>
+                                                <div class="row">
+                                                  <div class="col">
+                                                    <input type="text" class="form-control" placeholder="Nome" >
+                                                    
+                                                  </div>
+                                                  <div class="col">
+                                                    <input type="text" class="form-control" placeholder="Sobrenome">
+                                                  </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col">
+                                              <input type="text" class="form-control2" placeholder="Faixa Etária">
+                                            </div>
+                                          </div>
+
+                                              </form>
+                                        </div>
+                                        
+                                        <div>
+                                            <select class="form-control">
+                                                <option>Gênero</option>
+                                                <option>Feminino</option>
+                                                <option>Masculino</option>
+                                                <option>Não quero informar </option>
+                                              </select>
+                                        </div>
+                                        
+                                        <button type="submit" class="btn btn-danger">Enviar</button>
+
+
+                                </section>
+
+
+
+
+
+
+
+
 
         </section>
     </main>
@@ -79,7 +125,12 @@
             </ul>
         </div>
     </footer>
+
+
       
+    <script src="./bootstrap/jquery-3.3.1.slim.min.js"></script>
+    <script src="./bootstrap/popper.min.js"></script>
+    <script src="./bootstrap/bootstrap.js"></script>
 </body>
 
 
