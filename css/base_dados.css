@@ -1,0 +1,19 @@
+.nome{
+    color: black;
+}
+
+.teste{
+    display: grid;
+    grid-template-columns: auto;
+    margin-bottom: 50px;
+}
+
+.inicio{
+    margin-bottom: 50px;
+}
+
+.teste2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 50px;
+}
